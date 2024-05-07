@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="menu-container" class="container">
+        <div id="name-logo">
+            <img src="./final_cropped.gif" alt="name logo" id="anim-logo">
+        </div>
+        <div id="menu" class="special">
+            <a onclick="scrollDiv('about-container')">About</a>
+            <a onclick="scrollDiv('projects-container')">Projects </a>
+            <a onclick="scrollDiv('contact-container')">Contact</a>
+        </div>
+    </div>
+
+    <div id="about-container" class="container">
+        <div id="about-img-container" >
+            <img id="about-img" src="./iprofile photo.png">
+        </div>
+        <div></div>
+        <div>
+            <div id="about-text">
+                <p>
+                    <h1>Hello!</h1> I am <span id="name" class="special">Hardik Saini,</span>
+                    <span id="profList">a<br><span class="special">student 📚</span></span><br>
+                    based in Delhi, India
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects-container" class="container">
+        <h1 class="heading">Here are some of my Projects..</h1><br>
+        <div id="project-cards">
+            <div class="project">
+                <h2>Data Science 📊</h2>
+               
+
+            </div>
+            <div class="project">
+                <h2>Web / App Dev 🤖</h2>
+                
+
+            </div>
+            <div class="project">
+                <h2>Other Projects</h2>
+            </div>
+            
+        </div>
+        <div id="project-descriptions">
+            <div id="desc-1" class="project-description">
+                <h2>Data Science 📊</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ipsum provident molestiae quas cumque odio aspernatur deleniti quam nihil commodi iste totam labore nisi amet sequi culpa, id perferendis ducimus!
+            </div>
+            <div id="desc-2" class="project-description">
+                <h2>Web / App Dev 🤖</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum ullam vel maiores dolores suscipit iste minima. Velit modi delectus magni quidem! At ullam perspiciatis odit magnam cum quam vel.
+            </div>
+            <div id="desc-3" class="project-description">
+                <h2>Other Projects</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, beatae. Rem, explicabo, veritatis vero fugiat harum quod neque molestias ratione autem consequuntur provident veniam nemo non laborum quibusdam eaque temporibus.
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-container" class="container">
+        <h1>Want to get in touch?</h1>
+        <div id="contacts">
+            <img src="./images/gmail.svg">
+            <img src="./images/linkedin-original.svg">
+        </div>
+    </div> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
